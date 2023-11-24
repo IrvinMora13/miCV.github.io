@@ -1,0 +1,175 @@
+body {
+    width: 21cm;
+    height: 29.7cm; 
+    margin: 50px auto; 
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+p {
+    font-size: 15px;
+}
+ul li {
+    font-size: 15px;
+}
+
+ul {
+    padding-left: 16px;
+}
+
+li {
+    margin: 7px;
+}
+.cvContainer {
+    display: flex;
+}
+
+.izquierda {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: #243429;
+    width: 8.5cm;
+    height: 29.7cm;
+    font-family: 'Arial', sans-serif;
+    color: #e2e5d8;
+}
+
+.izquierda h2 {
+    text-align: left;
+    margin-left: 20px;   
+}
+
+#perfil {
+    width: 7cm;
+    height: 7cm;
+    border-radius: 0 50% 0 0;
+    margin-top: 40px;
+    object-fit: cover; 
+}
+
+.datosPersonal {
+    text-align: left;
+    margin-top: 12.5px;
+}
+
+.datosPersonal p {
+    margin-bottom: 7px;
+    margin-top: 4.5px;
+}
+
+.contacto {
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.datosContacto{
+    display: flex;
+    align-items: center;
+}
+
+.datosContacto p {
+    margin: 7px;
+}
+
+#iconsIzq {
+    width: .6cm;
+    height: .6cm;
+    object-fit: cover; 
+    margin-top: 0;
+    margin-right: 5px;
+}
+
+.conocimientos {
+    margin-top: 20px;
+}
+
+.derecha {
+    display: flex;
+    flex-direction: column; 
+    background-color: #ecede7;
+    width: 11cm;
+    height: 29.7cm;
+    font-family: 'Arial', sans-serif;
+    color: #0b0000;
+}
+
+.derecha h2 {
+    margin-left: 45px;
+}
+
+.derecha p {
+    text-align: justify;
+    margin: 15px;
+    line-height: 1.5;
+}
+
+.titulo {
+    text-align: center;
+    margin: 25px;
+    margin-top: 60px;
+}
+
+.titulo h2 {
+    margin: 15px;
+    margin-bottom: 0px;
+    font-size: 22px;
+    text-align: center;
+}
+
+.titulo p{
+    margin-top: 0px;
+    font-size: 22px;
+    text-align: center;
+}
+
+.personal p {
+    margin-top: 0px;
+}
+
+.objetivo h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.academico p {
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 15px;
+}
+
+#negritas {
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.iconsDerecha {
+    display: flex;
+    margin: 0px;
+    align-items: center;
+}
+
+.iconsDerecha h2{
+    margin-left: 0px;
+}
+
+#iconsDer{
+    width: .6cm;
+    height: .6cm;
+    object-fit: cover;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+@media print {
+    body {
+        width: 21cm;
+        height: 29.7cm;
+        margin-top: 0; 
+        padding: 0;
+    }
+}
