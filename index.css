@@ -74,7 +74,7 @@ li {
     margin: 7px;
 }
 
-#iconsIzq {
+.iconsIzq {
     width: .6cm;
     height: .6cm;
     object-fit: cover; 
@@ -141,7 +141,7 @@ li {
     margin-left: 15px;
 }
 
-#negritas {
+.negritas {
     font-weight: bold;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -157,7 +157,7 @@ li {
     margin-left: 0px;
 }
 
-#iconsDer{
+.iconsDer{
     width: .6cm;
     height: .6cm;
     object-fit: cover;
